@@ -4,12 +4,12 @@ This project focuses on building an abstractive summarization system tailored fo
 
 ---
 
-## 📋 Overview
+## Overview
 Legal case documents are often lengthy and complex, making it challenging for lawyers, researchers, and other professionals to quickly grasp their content. This project fine-tunes BART to generate concise and meaningful summaries while maintaining legal context and accuracy.
 
 ---
 
-## ✨ Key Features
+## Key Features
 - **Model:** Fine-tuned **BART** for legal text summarization.
 - **Chunking Strategy:** **Mean Cosine Similarity (MCS)** to segment long documents.
 - **Evaluation Metric:** Achieved **ROUGE-L score of 0.32** on the legal case summarization dataset.
@@ -20,7 +20,7 @@ Legal case documents are often lengthy and complex, making it challenging for la
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```
 
 ABSTRACTIVE-SUMMARIZATION-OF-LEGAL-CASE-DOCUMENTS/
@@ -52,7 +52,7 @@ Key libraries:
 
 ---
 
-## 🚀 Usage
+## Usage
 
 1. **Data Preparation:**
    Run `1_data_preparation.ipynb` to clean and chunk the dataset.
@@ -65,7 +65,7 @@ Key libraries:
 
 ---
 
-## 📊 Results
+## Results
 
 * **ROUGE-L:** 0.32
 * Summaries generated are concise while retaining critical legal context.

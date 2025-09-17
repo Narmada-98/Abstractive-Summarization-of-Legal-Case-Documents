@@ -1,4 +1,3 @@
-```markdown
 # Abstractive Summarization of Legal Case Documents
 
 This project focuses on building an abstractive summarization system tailored for legal case documents. It leverages **BART**, a transformer-based sequence-to-sequence model, fine-tuned with **Mean Cosine Similarity (MCS)** chunking to effectively handle long legal texts.

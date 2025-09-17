@@ -26,16 +26,13 @@ Legal case documents are often lengthy and complex, making it challenging for la
 ABSTRACTIVE-SUMMARIZATION-OF-LEGAL-CASE-DOCUMENTS/
 │
 ├── data/                               # Dataset files
-│   └── Fine\_Tuned\_Data\_FD\_IN-Abs\_CSM\_512.xlsx
+│   └── Fine_Tuned_Data_FD_IN-Abs_CSM_512.xlsx
 │
 ├── notebooks/                          # Jupyter notebooks
-│   ├── 1\_data\_preparation.ipynb        # Data preparation and chunking
-│   ├── 2\_model-finetuning.ipynb        # BART fine-tuning
-│   └── 3\_evaluation.ipynb              # Model evaluation and analysis
-│
-├── Court\_case\_summarization\_using\_BART # Core implementation script (if applicable)
-├── .gitignore                          # Ignored files
-├── kaggle.json                         # Kaggle API credentials (if used for dataset)
+│   ├── 1_data_preparation.ipynb        # Data preparation and chunking
+│   ├── 2_model-finetuning.ipynb        # BART fine-tuning
+│   └── 3_evaluation.ipynb              # Model evaluation and analysis
+│                         
 └── README.md                           # Project documentation
 
 ````
